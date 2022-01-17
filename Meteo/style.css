@@ -1,0 +1,58 @@
+* {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+form {
+  margin: 20px auto;
+  border: solid white;
+
+  text-align: center;
+  background: rgba(253, 187, 45, 0.26);
+  background: linear-gradient(
+    18deg,
+    rgba(253, 187, 45, 1) 30%,
+    rgba(34, 193, 195, 1) 80%
+  );
+  height: 33%;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.card {
+  background: rgb(253, 29, 29);
+  background: linear-gradient(
+    147deg,
+    rgba(253, 29, 29, 1) 9%,
+    rgba(252, 176, 69, 1) 58%
+  );
+  border-radius: 30px;
+  max-width: 400px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  padding: 3px;
+  /* border: solid red; */
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+input {
+  display: block;
+  /* border: solid red; */
+
+  margin: 20px auto;
+  border-radius: 20px;
+  height: 50px;
+  width: 80%;
+}
+
+ul {
+  display: block;
+}
